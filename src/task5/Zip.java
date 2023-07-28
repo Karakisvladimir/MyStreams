@@ -15,12 +15,7 @@ public class Zip {
             list.add(secondIterator.next());
         }
 
-        while (firstIterator.hasNext())
-            list.add(firstIterator.next());
-
-        while (secondIterator.hasNext())
-            list.add(secondIterator.next());
-
+        Collections.shuffle(list);
         return list.stream();
     }
 }
