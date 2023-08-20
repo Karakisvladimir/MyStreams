@@ -1,7 +1,7 @@
 package task1;
 
 import java.util.stream.IntStream;
-
+//Test Andrey
 public class Test {
     public static void main(String[] args) {
         IntStream stream = IntStream.range(0, 3);
